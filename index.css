@@ -12,7 +12,7 @@ body {
   
   
   font: 19px 'Open Sans', serif;
-  padding-top: 29px;
+  padding: 25px;
   
   justify-content: center;
   gap: 275px;
@@ -21,7 +21,8 @@ body {
 
 .header__logo {
   object-fit: cover;
-  height: 81px;
+  height: 70.81px;
+  width: 265px;
 }
 
 .header__content {
@@ -55,8 +56,8 @@ body {
 
 .header__search-input {
   display: block;
-  width: 452px;
-  height: 39px;
+  width: 400px;
+  height: 35px;
   padding-left: 10px;
   border: none;
   outline: none;
