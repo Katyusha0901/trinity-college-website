@@ -11,8 +11,8 @@ body {
   flex-direction: row;
   
   
-  font: 20px 'Open Sans', serif;
-  padding: 25px 0px;
+  font: 19px 'Open Sans', serif;
+  padding-top: 29px;
   
   justify-content: center;
   gap: 275px;
@@ -21,7 +21,7 @@ body {
 
 .header__logo {
   object-fit: cover;
-  height: 80px;
+  height: 81px;
 }
 
 .header__content {
@@ -55,7 +55,7 @@ body {
 
 .header__search-input {
   display: block;
-  width: 500px;
+  width: 452px;
   height: 39px;
   padding-left: 10px;
   border: none;
@@ -64,8 +64,10 @@ body {
 }
 
 .header__search-buttom {
-  width: 39px;
+  width: 55px;
   height: 39px;
+  display: block;
+ padding: 3px 10px;
 
   cursor: pointer;
 
