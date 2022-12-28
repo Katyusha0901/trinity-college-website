@@ -14,7 +14,7 @@ body {
   display: flex;
   flex-direction: row;
 
-  padding: 25px;
+  padding: 25px 0px ;
 
   justify-content: center;
   gap: 275px;
