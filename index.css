@@ -6,25 +6,25 @@ body {
   font-family: 'Open Sans';
 
   margin: 0;
+
+  letter-spacing: 3px;
 }
 
 .header {
-  font-size: 15px;
-
   display: flex;
   flex-direction: row;
 
-  padding: 25px 0px ;
+  padding: 25.5px 0 ;
 
   justify-content: center;
-  gap: 275px;
+  gap: 236px;
 }
 
 .header__logo {
   width: 265px;
-  height: 70.81px;
+  height: 73.75px;
 
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .header__content {
@@ -42,7 +42,12 @@ body {
 }
 
 .header__menu-item {
+  font-size: 15px;
+  line-height: 18.75px;
+
   padding: 5px;
+
+  white-space: nowrap;
 
   color: #53565a;
 }
@@ -73,7 +78,7 @@ body {
   height: 35px;
 
   border: none;
-  background: #2873c8;
+  background: #0569b9;
 
   justify-content: center;
   align-items: center;
@@ -84,4 +89,12 @@ body {
 
   width: 32px;
   height: 32px;
+
+  filter: invert(1);
 }
+
+.bottom-placeholder {
+  width: 100vw;
+  height: 1000px;
+}
+
