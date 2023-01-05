@@ -7,7 +7,7 @@ body {
 
   margin: 0;
 
-  letter-spacing: 3px;
+  letter-spacing: 0.3px;
 }
 
 .header {
@@ -61,20 +61,21 @@ body {
 
 .header__search-input {
   display: block;
-
+  font-family: 'Open Sans';
+  
   width: 400px;
   height: 35px;
   padding-left: 10px;
-
+  
   border: none;
   outline: none;
   background-color: rgb(234, 234, 234);
 }
 
 input::placeholder {
-  font-size: 18px;
-  line-height: 18.75px;
-
+  font-size: 17px;
+  line-height: 1.25px;
+  font-family: 'Open Sans';
   padding: 5px;
 
   white-space: nowrap;
@@ -97,11 +98,17 @@ input::placeholder {
 
 .header__search-image {
   display: block;
-
   width: 32px;
+  max-width: 100%;
+  border-style: none;
   height: 32px;
 
   filter: invert(1);
+}
+
+.bottom-placeholder {
+  width: 100vw;
+  height: 1000px;
 }
 
 .banner {
@@ -109,7 +116,7 @@ input::placeholder {
   flex-direction: column;
 
   width: 100%;
-  height: 450px;
+  height: 500px;
 
   background-image: url(images/banner.png);
   background-repeat: no-repeat;
@@ -122,14 +129,15 @@ input::placeholder {
 .banner__content {
   display: flex;
   flex-direction: column;
-
-  padding: 0 300px 100px;
+  max-width: 760;
+  padding: 0 410px 90px;
 
   align-items: flex-start;
 }
 
 .banner__text {
   display: flex;
+  line-height: 18.75px;
 
   margin-top: 5px;
   margin-bottom: 5px;
@@ -142,7 +150,7 @@ input::placeholder {
 .banner__text-h1 {
   font-family: 'Open Sans';
   font-size: 52px;
-  font-weight: 700;
+  font-weight: 600;
 
   padding: 10px;
 
@@ -151,11 +159,11 @@ input::placeholder {
 }
 
 .banner__text-h2 {
-  font-size: 25px;
+  font-size: 19px;
 
   margin-top: 10px;
-  padding: 10px;
-
+  padding: 8px 10px;
+  margin: 5px 0px 0px;
   color: white;
   background-color: #0569b9;
 }
