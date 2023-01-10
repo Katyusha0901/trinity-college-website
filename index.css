@@ -7,7 +7,7 @@ body {
 
   margin: 0;
 
-  letter-spacing: 0.3px;
+  letter-spacing: .3px;
 }
 
 .header {
@@ -60,22 +60,24 @@ body {
 }
 
 .header__search-input {
-  display: block;
   font-family: 'Open Sans';
-  
+
+  display: block;
+
   width: 400px;
   height: 35px;
   padding-left: 10px;
-  
+
   border: none;
   outline: none;
   background-color: rgb(234, 234, 234);
 }
 
 input::placeholder {
+  font-family: 'Open Sans';
   font-size: 17px;
   line-height: 1.25px;
-  font-family: 'Open Sans';
+
   padding: 5px;
 
   white-space: nowrap;
@@ -98,10 +100,12 @@ input::placeholder {
 
 .header__search-image {
   display: block;
+
   width: 32px;
   max-width: 100%;
-  border-style: none;
   height: 32px;
+
+  border-style: none;
 
   filter: invert(1);
 }
@@ -112,23 +116,30 @@ input::placeholder {
 }
 
 .banner {
+  font-family: 'object-fit: cover; object-position: center';
+
   display: flex;
   flex-direction: column;
 
   width: 100%;
-  height: 500px;
+  height: 450px;
 
-  background-image: url(images/banner.png);
+  background-image: url(images/trees.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 
+  object-fit: cover;
+  object-position: center;
   justify-content: flex-end;
   align-items: flex-start;
 }
 
+
+
 .banner__content {
   display: flex;
   flex-direction: column;
+
   max-width: 760;
   padding: 0 410px 90px;
 
@@ -136,8 +147,9 @@ input::placeholder {
 }
 
 .banner__text {
-  display: flex;
   line-height: 18.75px;
+
+  display: flex;
 
   margin-top: 5px;
   margin-bottom: 5px;
@@ -154,6 +166,7 @@ input::placeholder {
 
   padding: 10px;
 
+  opacity: .9;
   color: white;
   background-color: #0569b9;
 }
@@ -161,9 +174,69 @@ input::placeholder {
 .banner__text-h2 {
   font-size: 19px;
 
+  margin: 5px 0 0;
   margin-top: 10px;
   padding: 8px 10px;
-  margin: 5px 0px 0px;
+
+  opacity: .9;
   color: white;
   background-color: #0569b9;
+}
+
+.description {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 417.84px;
+  margin: 0 0 40px;
+  padding: 40px 0;
+
+  background-color: #eff0f1;
+
+  justify-content: center;
+}
+
+.description__study {
+  display: flex;
+
+  padding: 0 15px;
+}
+
+.description__study-image {
+  display: flex;
+
+  width: 786.67px;
+  height: 337.84px;
+}
+
+.description__importent {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 393.33px;
+  height: 337.84px;
+  padding: 0 15px;
+}
+
+.description__research {
+  display: flex;
+
+  width: 363.33px;
+  height: 168.92px;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.description__ukrain {
+  display: flex;
+
+  width: 363.33px;
+  height: 168.92px;
+
+  object-fit: cover;
+  object-position: center;
 }
