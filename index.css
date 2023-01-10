@@ -172,6 +172,7 @@ input::placeholder {
 }
 
 .banner__text-h2 {
+  font-family: 'Open Sans';
   font-size: 19px;
 
   margin: 5px 0 0;
@@ -198,16 +199,96 @@ input::placeholder {
 }
 
 .description__study {
-  display: flex;
+  position: relative;
 
+  display: flex;
+  flex-direction: column;
+
+  width: 786.67px;
+  height: 337.84px;
   padding: 0 15px;
 }
 
 .description__study-image {
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+
   display: flex;
 
-  width: 786.67px;
-  height: 337.84px;
+  width: 716.67px;
+  height: 317.84px;
+}
+
+.description__text {
+  font-family: 'Open Sans';
+  font-size: 17px;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 15px;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 360px;
+  height: 250.25px;
+  padding: 25px 40px;
+
+  background-color: #fff;
+
+  align-items: center;
+  align-self: center;
+  align-items: flex-end;
+}
+
+.description__title {
+  font-family: 'Open Sans';
+  font-size: 25px;
+  font-weight: 700;
+
+  width: 280px;
+  height: 42px;
+  margin: 0 0 10px;
+  padding: 0 30px 0 0;
+
+  color: #36434d;
+}
+
+.description__subtitle {
+  font-family: 'Open Sans';
+  font-size: 16px;
+
+  width: 280px;
+  height: 84px;
+  margin: 0 0 20px;
+
+  color: #53565a;
+}
+
+.description__button {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.75;
+
+  display: flex;
+
+  width: 168.28px;
+  height: 44.25px;
+  margin-right: 112px;
+  padding: 8px 21px;
+
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .5px;
+
+  color: #fff;
+  border: 1px;
+  border-color: #0569b9;
+  border-radius: 3px;
+  background-color: #0569b9;
 }
 
 .description__importent {
@@ -223,15 +304,13 @@ input::placeholder {
 
 .description__research {
   display: flex;
+  position: relative;
 
   width: 363.33px;
   height: 168.92px;
-
-  object-fit: cover;
-  object-position: center;
 }
 
-.description__ukrain {
+.description__research-image {
   display: flex;
 
   width: 363.33px;
@@ -240,3 +319,68 @@ input::placeholder {
   object-fit: cover;
   object-position: center;
 }
+
+.description__research-button {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.75;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 168.28px;
+  height: 44.25px;
+  padding: 8px 21px;
+
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .5px;
+  z-index: 1;
+  color: #fff;
+  border: 1px;
+  border-color: #0569b9;
+  border-radius: 3px;
+  background-color: #0569b9;
+}
+
+.description__ukraine {
+  display: flex;
+  position: relative;
+
+  width: 363.33px;
+  height: 168.92px;
+}
+
+.description__ukraine-image {
+  width: 363.33px;
+  height: 168.92px;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.description__ukraine-button {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.75;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 168.28px;
+  height: 44.25px;
+  padding: 8px 21px;
+
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .5px;
+  z-index: 1;
+  color: #fff;
+  border: 1px;
+  border-color: #0569b9;
+  border-radius: 3px;
+  background-color: #0569b9;
+}
+
