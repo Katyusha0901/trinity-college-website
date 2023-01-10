@@ -140,7 +140,7 @@ input::placeholder {
 
 .banner__content {
   line-height: 18.75px;
-
+  position: relative;
   display: flex;
   flex-direction: column;
 
@@ -149,7 +149,7 @@ input::placeholder {
   margin-top: 5px;
   margin-bottom: 5px;
   padding-bottom: 150px;
-  margin-left: 480px;
+  margin-left: 22.5%;
 
   align-items: flex-start;
   justify-content: space-around;
