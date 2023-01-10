@@ -116,7 +116,7 @@ input::placeholder {
 }
 
 .banner {
-  font-family: 'object-fit: cover; object-position: center';
+ 
 
   display: flex;
   flex-direction: column;
@@ -126,10 +126,9 @@ input::placeholder {
 
   background-image: url(images/trees.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-
-  object-fit: cover;
-  object-position: center;
+  background-size: cover;
+  background-position: 65% 35%;
+  
   justify-content: flex-end;
   align-items: flex-start;
 }
