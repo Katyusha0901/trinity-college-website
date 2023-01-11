@@ -267,23 +267,23 @@ input::placeholder {
   height: 44.25px;
   padding: 8px 21px;
 
+  transition: .25s;
   text-align: center;
   text-decoration: none;
   letter-spacing: .5px;
-transition: 0.25s;
+
   color: #fff;
   border-radius: 5px;
-  
   background-color: #0569b9;
 }
 
 .description__button:hover {
   color: #0569b9;
-  background-color: #fff;
   border: 1px;
   border-style: solid;
   border-color: #0569b9;
   border-radius: 5px;
+  background-color: #fff;
 }
 
 .description__important {
@@ -335,20 +335,19 @@ transition: 0.25s;
   text-align: center;
   text-decoration: none;
   letter-spacing: .5px;
-  border-radius: 5px;
 
   color: #fff;
-  
+  border-radius: 5px;
   background-color: #0569b9;
 }
 
 .description__research-button:hover {
   color: #0569b9;
-  background-color: #fff;
   border: 1px;
-  border-color: #0569b9;
   border-style: solid;
+  border-color: #0569b9;
   border-radius: 5px;
+  background-color: #fff;
 } 
 
 .description__ukraine {
@@ -388,20 +387,19 @@ transition: 0.25s;
   text-align: center;
   text-decoration: none;
   letter-spacing: .5px;
-  border-radius: 5px;
 
   color: #fff;
-  
+  border-radius: 5px;
   background-color: #0569b9;
 }
 
 .description__ukraine-button:hover {
   color: #0569b9;
-  background-color: #fff;
   border: 1px;
-  border-color: #0569b9;
   border-style: solid;
+  border-color: #0569b9;
   border-radius: 5px;
+  background-color: #fff;
 }
 
 .heading {
@@ -813,15 +811,14 @@ transition: 0.25s;
 
   opacity: .9;
   color: #fff;
-  
   background-color: #00a9cee6;
 }
 
 .sections__button:hover {
   color: #00a9cee6;
-  background-color: #fff;
   border-width: 2px;
   border-style: solid;
   border-color: #00a9cee6;
   border-radius: 3px;
-} 
+  background-color: #fff;
+}
